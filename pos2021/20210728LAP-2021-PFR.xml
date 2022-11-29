@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<documentlist date = "20210728">
+	<document source="20210728101100068">
+		<personnel>10</personnel>
+		<date>1627459860068</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>3</product>
+			<description>Dagobert</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>480.0</value>
+		</payement>
+	</document>
+	<document source="20210728102352756">
+		<personnel>10</personnel>
+		<date>1627460632756</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1347</product>
+			<description>Club Boulette</description>
+			<unitPrice>400</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>730.0</value>
+		</payement>
+	</document>
+	<document source="20210728102926365">
+		<personnel>10</personnel>
+		<date>1627460966365</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>154</product>
+			<description>Boulettes</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>155</product>
+			<description>Pipes Gaumaises</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>690.0</value>
+		</payement>
+	</document>
+	<document source="20210728103751068">
+		<personnel>10</personnel>
+		<date>1627461471068</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>11</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>0</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>2000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>2030.0</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-1700.0</value>
+		</payement>
+	</document>
+	<document source="20210728104500631">
+		<personnel>10</personnel>
+		<date>1627461900631</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1293</product>
+			<description>Méditerranéen</description>
+			<unitPrice>420.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>181</product>
+			<description>Supplément 1</description>
+			<unitPrice>30.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>2000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-1330.0</value>
+		</payement>
+	</document>
+	<document source="20210728104721615">
+		<personnel>10</personnel>
+		<date>1627462041615</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>30</product>
+			<description>Américain Doux</description>
+			<unitPrice>560.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>50</product>
+			<description>Crevettes Grises</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>26</product>
+			<description>Américain</description>
+			<unitPrice>250.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1360.0</value>
+		</payement>
+	</document>
+	<document source="20210728105026896">
+		<personnel>10</personnel>
+		<date>1627462226896</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>173</product>
+			<description>Eau Pétillante</description>
+			<unitPrice>200</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>168</product>
+			<description>Soft Canette</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>181</product>
+			<description>Supplément 1</description>
+			<unitPrice>30.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>154</product>
+			<description>Boulettes</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>95</product>
+			<description>Campagnard</description>
+			<unitPrice>450.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1260.0</value>
+		</payement>
+	</document>
+	<document source="20210728105404099">
+		<personnel>10</personnel>
+		<date>1627462444099</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>200</quantity>
+			<product>12</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>960.0</value>
+		</payement>
+	</document>
+	<document source="20210728105734834">
+		<personnel>10</personnel>
+		<date>1627462654834</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1347</product>
+			<description>Club Boulette</description>
+			<unitPrice>400</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>400</value>
+		</payement>
+	</document>
+	<document source="20210728105905506">
+		<personnel>10</personnel>
+		<date>1627462745506</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>26</product>
+			<description>Américain</description>
+			<unitPrice>350.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>350.0</value>
+		</payement>
+	</document>
+	<document source="20210728110327209">
+		<personnel>10</personnel>
+		<date>1627463007209</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>200</quantity>
+			<product>1329</product>
+			<description>Club Poulet Grillé</description>
+			<unitPrice>420.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>183</product>
+			<description>Supplément 3</description>
+			<unitPrice>100</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>940.0</value>
+		</payement>
+	</document>
+	<document source="20210728111019896">
+		<personnel>10</personnel>
+		<date>1627463419896</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1342</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>700</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>200</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>2140.0</value>
+		</payement>
+	</document>
+	<document source="20210728111658943">
+		<personnel>10</personnel>
+		<date>1627463818943</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1317</product>
+			<description>Le Parma 3</description>
+			<unitPrice>450.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>53</product>
+			<description>Crevettes Cocktail</description>
+			<unitPrice>380.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>830.0</value>
+		</payement>
+	</document>
+	<document source="20210728111913506">
+		<personnel>10</personnel>
+		<date>1627463953506</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>8</product>
+			<description>Fromage (Gouda)</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>134</product>
+			<description>Salade Fermière</description>
+			<unitPrice>540.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>0</quantity>
+			<product>181</product>
+			<description>Supplément 1</description>
+			<unitPrice>2800</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>165</product>
+			<description>Baguette</description>
+			<unitPrice>80.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>950.0</value>
+		</payement>
+	</document>
+	<document source="20210728112113568">
+		<personnel>10</personnel>
+		<date>1627464073568</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1330</product>
+			<description>Club Poulet Grillé</description>
+			<unitPrice>620.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>200</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1060.0</value>
+		</payement>
+	</document>
+	<document source="20210728113220349">
+		<personnel>10</personnel>
+		<date>1627464740349</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>200</quantity>
+			<product>11</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-340.0</value>
+		</payement>
+	</document>
+	<document source="20210728114108724">
+		<personnel>10</personnel>
+		<date>1627465268724</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>114</product>
+			<description>Pita</description>
+			<unitPrice>520.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>740.0</value>
+		</payement>
+	</document>
+	<document source="20210728114914818">
+		<personnel>10</personnel>
+		<date>1627465754818</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>126</product>
+			<description>Végétarien 1</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>480.0</value>
+		</payement>
+	</document>
+	<document source="20210728115111521">
+		<personnel>10</personnel>
+		<date>1627465871521</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>36</product>
+			<description>Thon Mayo</description>
+			<unitPrice>540.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1040.0</value>
+		</payement>
+	</document>
+	<document source="20210728115313787">
+		<personnel>10</personnel>
+		<date>1627465993787</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>8</product>
+			<description>Fromage (Gouda)</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>330.0</value>
+		</payement>
+	</document>
+	<document source="20210728115811943">
+		<personnel>10</personnel>
+		<date>1627466291943</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1362</product>
+			<description>Tartare Italien</description>
+			<unitPrice>530.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>860.0</value>
+		</payement>
+	</document>
+	<document source="20210728120005865">
+		<personnel>10</personnel>
+		<date>1627466405865</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>74</product>
+			<description>Poulet Curry</description>
+			<unitPrice>350.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>181</product>
+			<description>Supplément 1</description>
+			<unitPrice>30.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>600.0</value>
+		</payement>
+	</document>
+	<document source="20210728120154974">
+		<personnel>10</personnel>
+		<date>1627466514974</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>3</product>
+			<description>Dagobert</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>700.0</value>
+		</payement>
+	</document>
+	<document source="20210728120650115">
+		<personnel>10</personnel>
+		<date>1627466810115</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>550.0</value>
+		</payement>
+	</document>
+	<document source="20210728120708896">
+		<personnel>10</personnel>
+		<date>1627466828896</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>81</product>
+			<description>Poulet Maison</description>
+			<unitPrice>600</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>450.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1050.0</value>
+		</payement>
+	</document>
+	<document source="20210728121033959">
+		<personnel>10</personnel>
+		<date>1627467033959</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1335</product>
+			<description>Club Exotique</description>
+			<unitPrice>420.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>420.0</value>
+		</payement>
+	</document>
+	<document source="20210728121225552">
+		<personnel>10</personnel>
+		<date>1627467145552</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>500</value>
+		</payement>
+	</document>
+	<document source="20210728121450412">
+		<personnel>10</personnel>
+		<date>1627467290412</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>17</product>
+			<description>Saucisson gaumais</description>
+			<unitPrice>400</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>400</value>
+		</payement>
+	</document>
+	<document source="20210728121524037">
+		<personnel>10</personnel>
+		<date>1627467324037</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>147</product>
+			<description>Panini Hawai</description>
+			<unitPrice>440.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>150</product>
+			<description>Panini Romana</description>
+			<unitPrice>440.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>200</quantity>
+			<product>139</product>
+			<description>Salade Tomates Mozzarella</description>
+			<unitPrice>540.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>172</product>
+			<description>Eau Plate</description>
+			<unitPrice>200</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>5000</value>
+		</payement>
+		<payement>	
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-2510.0</value>
+		</payement>
+	</document>
+	<document source="20210728122722396" cancelled="true">
+		<personnel>10</personnel>
+		<date>1627468042396</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>36</product>
+			<description>Thon Mayo</description>
+			<unitPrice>540.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+	</document>
+	<document source="20210728122724693">
+		<personnel>10</personnel>
+		<date>1627468044693</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>60</product>
+			<description>Scampi à l'Ail</description>
+			<unitPrice>650.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>200</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>450.0</value>
+		</payement>
+	</document>
+	<document source="20210728122830006">
+		<personnel>10</personnel>
+		<date>1627468110006</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>250.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>250.0</value>
+		</payement>
+	</document>
+	<document source="20210728123049506">
+		<personnel>10</personnel>
+		<date>1627468249506</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1308</product>
+			<description>Le Parma 1</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>720.0</value>
+		</payement>
+	</document>
+	<document source="20210728123241068">
+		<personnel>10</personnel>
+		<date>1627468361068</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>330.0</value>
+		</payement>
+	</document>
+	<document source="20210728123424506">
+		<personnel>10</personnel>
+		<date>1627468464506</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>48</product>
+			<description>Crevettes Roses</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>2000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-1450.0</value>
+		</payement>
+	</document>
+	<document source="20210728123455084">
+		<personnel>10</personnel>
+		<date>1627468495084</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1330</product>
+			<description>Club Poulet Grillé</description>
+			<unitPrice>620.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>620.0</value>
+		</payement>
+	</document>
+	<document source="20210728123806287">
+		<personnel>10</personnel>
+		<date>1627468686287</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>200</quantity>
+			<product>1330</product>
+			<description>Club Poulet Grillé</description>
+			<unitPrice>620.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>0</quantity>
+			<product>1342</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>650.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1240.0</value>
+		</payement>
+	</document>
+	<document source="20210728124130662">
+		<personnel>10</personnel>
+		<date>1627468890662</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1228</product>
+			<description>Panini Nordique</description>
+			<unitPrice>580.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>200</quantity>
+			<product>11</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>41</product>
+			<description>Thon Cocktail</description>
+			<unitPrice>350.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1590.0</value>
+		</payement>
+	</document>
+	<document source="20210728124833052">
+		<personnel>10</personnel>
+		<date>1627469313052</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1353</product>
+			<description>Rosbif Parmesan</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>11</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>155</product>
+			<description>Pipes Gaumaises</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1010.0</value>
+		</payement>
+	</document>
+	<document source="20210728124922974">
+		<personnel>10</personnel>
+		<date>1627469362974</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>105</product>
+			<description>Filet Poulet</description>
+			<unitPrice>600</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1100</value>
+		</payement>
+	</document>
+	<document source="20210728125420912">
+		<personnel>10</personnel>
+		<date>1627469660912</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>32</product>
+			<description>Martino</description>
+			<unitPrice>380.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>380.0</value>
+		</payement>
+	</document>
+	<document source="20210728125543631">
+		<personnel>10</personnel>
+		<date>1627469743631</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1342</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>700</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>200</quantity>
+			<product>155</product>
+			<description>Pipes Gaumaises</description>
+			<unitPrice>180.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1280.0</value>
+		</payement>
+	</document>
+	<document source="20210728125824631">
+		<personnel>10</personnel>
+		<date>1627469904631</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1341</product>
+			<description>Club à l'Italienne</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>830.0</value>
+		</payement>
+	</document>
+	<document source="20210728130942084">
+		<personnel>10</personnel>
+		<date>1627470582084</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1229</product>
+			<description>Panini Italien</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1359</product>
+			<description>Tartare Italien</description>
+			<unitPrice>530.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1080.0</value>
+		</payement>
+	</document>
+	<document source="20210728131429521">
+		<personnel>10</personnel>
+		<date>1627470869521</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>60</product>
+			<description>Scampi à l'Ail</description>
+			<unitPrice>650.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>54</product>
+			<description>Crevettes Cocktail</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>5000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-3800.0</value>
+		</payement>
+	</document>
+	<document source="20210728131746209">
+		<personnel>10</personnel>
+		<date>1627471066209</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>3</product>
+			<description>Dagobert</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>27</product>
+			<description>Américain</description>
+			<unitPrice>520.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1000.0</value>
+		</payement>
+	</document>
+	<document source="20210728131910474">
+		<personnel>10</personnel>
+		<date>1627471150474</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>30</product>
+			<description>Américain Doux</description>
+			<unitPrice>560.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>560.0</value>
+		</payement>
+	</document>
+	<document source="20210728132022740">
+		<personnel>10</personnel>
+		<date>1627471222740</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>330.0</value>
+		</payement>
+	</document>
+	<document source="20210728132115756">
+		<personnel>10</personnel>
+		<date>1627471275756</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>35</product>
+			<description>Thon Mayo</description>
+			<unitPrice>350.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>350.0</value>
+		</payement>
+	</document>
+	<document source="20210728132507162">
+		<personnel>10</personnel>
+		<date>1627471507162</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1275</product>
+			<description>Chèvre Sud</description>
+			<unitPrice>450.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>1323</product>
+			<description>Club Dago</description>
+			<unitPrice>500</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>169</product>
+			<description>Soft Bouteille</description>
+			<unitPrice>220.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>181</product>
+			<description>Supplément 1</description>
+			<unitPrice>20.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1190.0</value>
+		</payement>
+	</document>
+	<document source="20210728132753037">
+		<personnel>10</personnel>
+		<date>1627471673037</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>1323</product>
+			<description>Club Dago</description>
+			<unitPrice>420.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>420.0</value>
+		</payement>
+	</document>
+	<document source="20210728132910412">
+		<personnel>10</personnel>
+		<date>1627471750412</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>11</product>
+			<description>Jambon Fromage</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-670.0</value>
+		</payement>
+	</document>
+	<document source="20210728133224974">
+		<personnel>10</personnel>
+		<date>1627471944974</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>33</product>
+			<description>Martino</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>550.0</value>
+		</payement>
+	</document>
+	<document source="20210728133506506">
+		<personnel>10</personnel>
+		<date>1627472106506</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>172</product>
+			<description>Eau Plate</description>
+			<unitPrice>200</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>530.0</value>
+		</payement>
+	</document>
+</documentlist>

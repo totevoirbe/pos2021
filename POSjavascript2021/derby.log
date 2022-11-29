@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Jan 07 02:17:55 CET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0160-ce32-0f00-0000040bf838 
+on database directory /home/tote/Desktop/workspace/POSjavascript/derbyTest  with class loader sun.misc.Launcher$AppClassLoader@3d4eac69 
+Loaded from file:/home/tote/.m2/repository/org/apache/derby/derby/10.8.2.2/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+user.dir=/home/tote/Desktop/workspace/POSjavascript
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

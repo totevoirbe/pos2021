@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<documentlist date = "20210728">
+	<document source="20210728131429521">
+		<personnel>10</personnel>
+		<date>1627470869521</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>60</product>
+			<description>Scampi à l'Ail</description>
+			<unitPrice>650.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>54</product>
+			<description>Crevettes Cocktail</description>
+			<unitPrice>550.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>5000</value>
+		</payement>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>-3800.0</value>
+		</payement>
+	</document>
+	<document source="20210728131746209">
+		<personnel>10</personnel>
+		<date>1627471066209</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>3</product>
+			<description>Dagobert</description>
+			<unitPrice>480.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<item>
+			<quantity>100</quantity>
+			<product>27</product>
+			<description>Américain</description>
+			<unitPrice>520.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>1000.0</value>
+		</payement>
+	</document>
+	<document source="20210728131910474">
+		<personnel>10</personnel>
+		<date>1627471150474</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>30</product>
+			<description>Américain Doux</description>
+			<unitPrice>560.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>560.0</value>
+		</payement>
+	</document>
+	<document source="20210728132022740">
+		<personnel>10</personnel>
+		<date>1627471222740</date>
+		<company>1</company>
+		<computername>DAGOSALLE</computername>
+		<takeonplace />
+		<item>
+			<quantity>100</quantity>
+			<product>2</product>
+			<description>Dagobert</description>
+			<unitPrice>330.0</unitPrice>
+			<tvaTakeAway>600</tvaTakeAway>
+			<tvaTakeOnPlace>1200</tvaTakeOnPlace>
+		</item>
+		<payement>
+			<quantity>100</quantity>
+			<description>Cash</description>
+			<mode>60</mode>
+			<value>330.0</value>
+		</payement>
+	</document>
+</documentlist>

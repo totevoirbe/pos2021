@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Panidel POS</title>
+
+</head>
+
+<body role="document">
+
+	<div class="container-fluid">
+
+		<div class="col-lg-7" align="right">
+
+			<div id="kbd-sel" class="row"></div>
+			<div id="nom-clavier" class="nom-clavier" align="center"></div>
+			<div id="kbd-main" class="row"></div>
+
+		</div>
+		<div class="col-lg-1">
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-primary kbd-lg">
+					<canvas id="canvas" height="80px" width="80px"></canvas>
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg"
+					onclick="toggleFullScreen(document.body)">
+					écran plein<br>1
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg"
+					onclick="requestFullScreen(document.body)">
+					écran plein<br>2
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg"
+					onclick="commandSale.displayAdmin()">ADMIN</button>
+			</div>
+			<div class="row">
+				<button id="cash" type="button"
+					class="btn btn-lg btn-default  kbd-lg kbd-remain-status">
+				</button>
+			</div>
+			<div class="row">
+				<button id="cash" value="5" type="button"
+					class="btn btn-lg btn-default  kbd-lg kbd-remain-status">
+				</button>
+			</div>
+			<div class="row">
+				<button id="cash" value="10" type="button"
+					class="btn btn-lg btn-default  kbd-lg kbd-remain-status">
+				</button>
+			</div>
+			<div class="row">
+				<button id="cash" value="20" type="button"
+					class="btn btn-lg btn-default  kbd-lg kbd-remain-status">
+				</button>
+			</div>
+			<div class="row">
+				<button id="cash" value="50" type="button"
+					class="btn btn-lg btn-default  kbd-lg kbd-remain-status">
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg">
+					Sur place</button>
+			</div>
+		</div>
+		<div class="col-lg-3">
+
+			<!-- 			TICKET PANE
+ -->
+			<div class="row">
+				<div class="panel panel-primary ticket_panel">
+					<div class="panel-heading">
+						<button class="btn btn-lg btn-default"
+							onclick="ticket.displayLongTicket()">
+							<span class="glyphicon glyphicon-list-alt"></span>
+						</button>
+						<button class="btn btn-lg btn-default"
+							onclick="ticket.scrollDownTicket()">
+							<span class="glyphicon glyphicon-arrow-down"></span>
+						</button>
+						<button class="btn btn-lg btn-default"
+							onclick="ticket.scrollUpTicket()">
+							<span class="glyphicon glyphicon-arrow-up"></span>
+						</button>
+						<button class="btn btn-lg btn-default"
+							onclick="commandSale.cancelSale()">
+							<span class="glyphicon glyphicon-remove-circle"></span>
+						</button>
+						<button class="btn btn-lg btn-default"
+							onclick="commandSale.displayResume()">
+							<span class="glyphicon glyphicon-lamp"></span>
+						</button>
+						<font size="3"><time id="currentDate"></time></font>
+					</div>
+					<div id="ticket_body" class="panel-body">
+						<table class="table" id="ticket_table">
+							<thead>
+								<tr>
+									<th>qté</th>
+									<th>produit</th>
+									<th>prix</th>
+								</tr>
+							</thead>
+							<tbody class="display-items">
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- 			CALCULATOR PANE
+ -->
+			<div class="row calculator" align="center">
+
+				<div class="row">
+					<div class="panel panel-default">
+						<div id="calc_result" class="panel-body"></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<button id="kbd_price"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit_sm">
+						prix</button>
+					<button id="kbd_delete"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit_sm">
+						efface</button>
+					<button value="%"
+						class="btn btn-lg btn-default kbd_calculator  kbd_operator">%</button>
+					<button value="+"
+						class="btn btn-lg btn-default kbd_calculator  kbd_operator">+</button>
+				</div>
+				<div class="row">
+					<button value="7"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">7</button>
+					<button value="8"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">8</button>
+					<button value="9"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">9</button>
+					<button value="-"
+						class="btn btn-lg btn-default kbd_calculator  kbd_operator">-</button>
+				</div>
+				<div class="row">
+					<button value="4"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">4</button>
+					<button value="5"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">5</button>
+					<button value="6"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">6</button>
+					<button value="*"
+						class="btn btn-lg btn-default kbd_calculator  kbd_operator">x</button>
+				</div>
+				<div class="row">
+					<button value="1"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">1</button>
+					<button value="2"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">2</button>
+					<button value="3"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">3</button>
+					<button value="/"
+						class="btn btn-lg btn-default kbd_calculator  kbd_operator">/</button>
+				</div>
+				<div class="row">
+					<button value="0"
+						class="btn btn-lg btn-default kbd_calculator kbd_digit">0</button>
+					<button id="kbd_period"
+						class="btn btn-lg btn-default kbd_calculator ">.</button>
+					<button id="kbd_equal"
+						class="btn btn-lg btn-default kbd_calculator">=</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-1">
+			<div class="row">
+				<button id="session1" type="button"
+					class="btn btn-lg btn-default kbd-session"
+					onclick='guiConfig.selectSession("session1")'>
+					C1<br> <span class='badge'>.</span>
+				</button>
+			</div>
+			<div class="row">
+				<button id="session2" type="button"
+					class="btn btn-lg btn-default kbd-session"
+					onclick='guiConfig.selectSession("session2")'>
+					C2<br> <span class='badge'>.</span>
+				</button>
+			</div>
+			<div class="row">
+				<button id="session3" type="button"
+					class="btn btn-lg btn-default kbd-session"
+					onclick='guiConfig.selectSession("session3")'>
+					C3<br> <span class='badge'>.</span>
+				</button>
+			</div>
+			<div class="row">
+				<button id="session4" type="button"
+					class="btn btn-lg btn-default kbd-session"
+					onclick='guiConfig.selectSession("session4")'>
+					C4<br> <span class='badge'>.</span>
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg">
+					Vente<br>-1
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default kbd-lg">
+					Fermer<br>caisse
+				</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg">
+					Jeté</button>
+			</div>
+			<div class="row">
+				<button id='fidelite' type="button"
+					class="btn btn-lg btn-default kbd-lg"></button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg">
+					Impayé</button>
+			</div>
+			<div class="row">
+				<button type="button" class="btn btn-lg btn-default  kbd-lg">
+					Facture</button>
+			</div>
+		</div>
+
+		<!-- Modal item-edit -->
+
+		<div class="modal" id="item-edit" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div id="item-edit-header" class="modal-header"></div>
+					<div id="item-edit-body" class="modal-body">
+						<div class="row">
+
+							<!-- item quantity up/down -->
+
+							<div class="col-lg-5">
+								<div class="panel panel-primary">
+									<div class="panel-heading">Quantité</div>
+									<div id="item-edit-body-qty"
+										class="panel-body panel-edit-value">
+										<button class="btn btn-lg btn-default kbd_modal"
+											onclick="ticket.modalValueEngineQty.inc()">
+											<span class="glyphicon glyphicon-arrow-up"></span>
+										</button>
+										<button class="btn btn-lg btn-default kbd_modal"
+											onclick="ticket.modalValueEngineQty.dec();">
+											<span class="glyphicon glyphicon-arrow-down"></span>
+										</button>
+										<input class="input-lg" type="text" maxlength="4" size="4"
+											onchange="ticket.modalValueEngineQty.setValue(this.value);">
+									</div>
+								</div>
+							</div>
+
+							<!-- item value up/down -->
+
+							<div class="col-lg-5">
+								<div class="panel panel-primary">
+									<div class="panel-heading">montant</div>
+									<div id="item-edit-body-value"
+										class="panel-body panel-edit-value">
+										<button class="btn btn-lg btn-default kbd_modal"
+											onclick="ticket.modalValueEngineValue.inc();">
+											<span class="glyphicon glyphicon-arrow-up"></span>
+										</button>
+										<button class="btn btn-lg btn-default kbd_modal"
+											onclick="ticket.modalValueEngineValue.dec();">
+											<span class="glyphicon glyphicon-arrow-down"></span>
+										</button>
+										<input class="input-lg" type="text" maxlength="4" size="4"
+											onchange="ticket.modalValueEngineValue.setValue(this.value);">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2">
+								<button class="btn btn-lg btn-default kbd_modal"
+									data-dismiss="modal">
+									<span class="glyphicon glyphicon-remove-circle"></span>
+								</button>
+								<button id="item-edit-body-validate-modal"
+									class="btn btn-lg btn-default kbd_modal" data-dismiss="modal"
+									onclick="commandSale.updateItem(ticket.modalValueEngineQty.item,ticket.modalValueEngineQty.value, ticket.modalValueEngineValue.value);">
+									<span class="glyphicon glyphicon-ok"></span>
+								</button>
+								<button id="item-edit-body-delete-modal"
+									class="btn btn-lg kbd_modal" data-dismiss="modal"
+									onclick="commandSale.deleteItem(ticket.modalValueEngineQty.item);">
+									<span class="glyphicon glyphicon glyphicon-trash"></span>
+								</button>
+								<button id="item-edit-body-undelete-modal"
+									class="btn btn-lg kbd_modal" data-dismiss="modal">
+									<span class="glyphicon glyphicon glyphicon-repeat"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+</body>
+
+<link rel="icon" href="img/favicon.ico">
+<link href="assets/bootstrap/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="assets/bootstrap/dist/css/bootstrap-theme.min.css"
+	rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+
+<script src="assets/jquery-2.2.1.min.js"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="js/jsonLibrary.js"></script>
+<script src="js/gui_tools.js"></script>
+<script src="js/gui_model.js"></script>
+<script src="js/gui_dao.js"></script>
+<script src="js/gui_view.js"></script>
+
+
+<script src="js/gui_command.js"></script>
+
+</html>

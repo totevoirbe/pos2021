@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>JS-XLSX Live Demo</title>
+<script async=""
+	src="https://cdn.rawgit.com/eligrey/Blob.js/0cef2746414269b16834878a8abc52eb9d53e6bd/Blob.js" />
+<script async=""
+	src="https://cdn.rawgit.com/eligrey/canvas-toBlob.js/f1a01896135ab378aa5c0118eadd81da55e698d8/canvas-toBlob.js" />
+<script async=""
+	src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js" />
+<script src="assets/jquery-2.2.1.min.js"></script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+		var bb = new BlobBuilder();
+		var buffer = new ArrayBuffer(8); // allocates 8 bytes
+		var data = new DataView(buffer);
+
+		// You can write (u)int8/16/32s and float32/64s to dataviews
+		data.setUint8(0, 0x01);
+		data.setUint16(1, 0x2345);
+		data.setUint32(3, 0x6789ABCD);
+		data.setUint8(7, 0xEF);
+
+		bb.append(buffer);
+		var blob = bb.getBlob("/home/tote/Desktop");
+		saveAs(blob, "data.dat");
+		// The contents of data.dat are &lt;01 23 45 67 89 AB CD EF&gt;
+
+	});
+
+	</script>
+
+</head>
+<body>
+
+	<input type="button" value="write it" onclick="writeTest()" />
+
+
+</body>
+</html>
+
+

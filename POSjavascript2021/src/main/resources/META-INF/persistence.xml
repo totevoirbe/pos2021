@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+	<persistence-unit name="pos"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<!-- <class>be.panidel.model.ItemModel</class> <class>be.panidel.model.SaleModel</class> -->
+		<!-- <properties> <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" 
+			/> <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory:dbInMemory;create=true" 
+			/> <property name="javax.persistence.jdbc.url" value="jdbc:derby:derbyTest;create=true" 
+			/> <property name="javax.persistence.jdbc.user" value="root" /> <property 
+			name="javax.persistence.jdbc.password" value="root" /> <property name="hibernate.hbm2ddl.auto" 
+			value="create" /> <property name="hibernate.connection.autocommit" value="false 
+			" /> </properties> -->
+		<properties>
+			<property name="javax.persistence.jdbc.driver"
+				value="com.mysql.jdbc.Driver" />
+			<!-- <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory:dbInMemory;create=true" 
+				/> -->
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:mysql://37.59.98.85:3306/posdb?createDatabaseIfNotExist=true&amp;autoReconnect=true&amp;useSSL=false" />
+			<property name="javax.persistence.jdbc.user" value="dbtest" />
+			<property name="javax.persistence.jdbc.password"
+				value="pf8210" />
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+			<property name="hibernate.connection.autocommit"
+				value="false " />
+		</properties>
+	</persistence-unit>
+</persistence>

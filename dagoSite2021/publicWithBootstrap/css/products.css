@@ -1,0 +1,23 @@
+.imageProduct {
+	height: 25px;
+	image-rendering: auto;
+}
+
+.webDetail {
+	font-style: oblique;
+	font-size: 90%;
+}
+
+.geantPrice {
+	font-size: 70%;
+}
+
+.normalHeader {
+	font-size: 80%;
+	text-align: left;
+}
+
+.geantHeader {
+	font-size: 60%;
+	text-align: left;
+}

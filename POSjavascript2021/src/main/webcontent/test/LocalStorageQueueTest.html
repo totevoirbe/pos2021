@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Local storage queue</title>
+<meta charset="utf-8">
+<link href="style.css" media="screen" rel="stylesheet" type="text/css">
+<script src="../assets/jquery-2.2.1.min.js"></script>
+<script src="../test/createModel.js" type="text/javascript"></script>
+<script src="../js/gui_dao.js" type="text/javascript"></script>
+<script src="../js/gui_model.js" type="text/javascript"></script>
+<script src="../js/gui_command.js" type="text/javascript"></script>
+<script src="../js/jsonLibrary.js"></script>
+
+<script type="text/javascript">
+	var localStorageQueue = new LocalStorageQueue();
+	var guiDao = new GuiDao();
+	var i = 0;
+
+	function addButton() {
+
+		var saleModel = createSale(i++);
+
+		console.log("[html.addButton]push:" + saleModel);
+		var posIndex = localStorageQueue.pushLocalStorage(saleModel,
+				listLocalStorageQueue);
+		console.log("[html.addButton]has been pushed:" + posIndex);
+		this.listLocalStorageQueue();
+
+	}
+
+	function clearButton() {
+
+		localStorageQueue.clearLocalStorage();
+		this.listLocalStorageQueue();
+
+	}
+
+	function listButton() {
+
+		this.listLocalStorageQueue();
+
+	}
+
+	function listLocalStorageQueue() {
+
+		var actionList = localStorageQueue.getAll();
+
+		console.log("<br><br>[html.listLocalStorageQueue]action list size "
+				+ actionList.length);
+		$(messageDiv).html(
+				"[html.listLocalStorageQueue]action list size "
+						+ actionList.length + "<br><br>");
+
+		for (var i = 0; i < actionList.length; i++) {
+			var action = actionList[i];
+			console.log("local storage " + i + " : " + action);
+			$(messageDiv).html(
+					$(messageDiv).html() + "local storage " + i + " : "
+							+ action + "<br>");
+		}
+	}
+</script>
+
+</head>
+<body>
+	<div class="content">
+		<h1>Local storage queue mngt</h1>
+		<input type="button" value="Ajouter" onclick="addButton()"> <input
+			type="button" value="Clear all" onclick="clearButton()"> <input
+			type="button" value="List all" onclick="listButton()">
+		<div id="messageDiv">EMPTY</div>
+	</div>
+</body>
+</html>

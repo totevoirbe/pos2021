@@ -1,0 +1,151 @@
+.container {
+	width: 100%;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn.kbd {
+	background: #e4f54b;
+	min-height: 113px;
+	min-width: 113px;
+	margin-top: 5px;
+}
+
+.btn.kbd span {
+	color: red;
+}
+
+.btn-primary.kbd {
+	border: 2px solid #e4f54b;
+	color: #008000;
+	margin: 2px;
+}
+
+.btn-primary.kbd:hover, .btn-primary.kbd:focus, .btn-primary.kbd:active,
+	.btn-primary.kbd.active, .open>.dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+
+.btn-primary.kbd:active, .btn-primary.kbd.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+
+.kbd-lg {
+	min-height: 100px;
+	min-width: 130px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.kbd-sel {
+	min-height: 100px;
+	min-width: 144px;
+	margin-top: 5px;
+	font-size: 20px;
+	margin: 2px;
+}
+
+.kbd-session {
+	min-height: 100px;
+	min-width: 130px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.theme-showcase>p>.btn {
+	margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+	width: auto;
+}
+
+.ticket_panel {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#ticket_body {
+	margin-top: 5px;
+	overflow: auto;
+	font-size: 20px;
+}
+
+.ticket_item_deleted {
+	text-decoration: line-through;
+}
+
+.sale-resume {
+	font-size: 25px;
+}
+
+.tooltip {
+	font-size: 30px;
+}
+
+.nom-clavier {
+	font-size: 30px;
+	border: 2px solid #e4f54b;
+	color: #008000;
+	background: #e4f54b;
+}
+
+/* calculator */
+#calc_result {
+	min-height: 45px;
+	text-align: right;
+	font-size: 25px;
+	letter-spacing: 7px;
+}
+
+#kbd-close-sale {
+	min-height: 75px;
+	min-width: 75px;
+	font-size: 30px;
+	color: white;
+}
+
+.btn.kbd_calculator {
+	background: teal;
+	min-height: 100px;
+	min-width: 100px;
+	margin-top: 5px;
+	border: 2px solid #e4f54b;
+	color: white;
+	font-size: 40px;
+}
+
+.btn.kbd_digit_sm {
+	font-size: 20px;
+}
+
+#kbd_delete {
+	background: aqua;
+}
+
+#kbd_equal {
+	background: lightGreen;
+	min-width: 205px;
+}
+
+.btn.kbd_modal {
+	background: teal;
+	min-height: 75px;
+	min-width: 75px;
+	margin-top: 5px;
+	border: 2px solid #e4f54b;
+	color: white;
+	font-size: 40px;
+}

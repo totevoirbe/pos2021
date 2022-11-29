@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>POS admin</title>
+<meta charset="utf-8">
+<script src="assets/jquery-2.2.1.min.js"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/gui_dao.js"></script>
+
+<script type="text/javascript">
+	var localStorageQueue = new LocalStorageQueue();
+	var guiDao = new GuiDao();
+
+	function purgeButton() {
+
+		localStorageQueue.purgeLocalStorage(localStorageQueue
+				.removeLocalStorage(index), postError);
+		localStorageQueue.listLocalStorageQueue();
+
+	}
+
+	function clearButton() {
+
+		localStorageQueue.clearLocalStorage();
+		localStorageQueue.listLocalStorageQueue();
+
+	}
+
+	function listButton() {
+
+		var jsonActionList = localStorageQueue.getAll();
+
+		$("#adminStatus").html(
+				"[html.listLocalStorageQueue]action list size "
+						+ jsonActionList.length + "<BR>");
+
+		for (var i = 0; i < jsonActionList.length; i++) {
+			var jsonAction = jsonActionList[i];
+			if (jsonAction == null) {
+				$("#adminStatus").html(
+						$('#adminStatus').html() + "localStorage[" + i + "]["
+								+ "null" + "]<BR>");
+			} else {
+				$("#adminStatus").html(
+						$('#adminStatus').html() + "localStorage[" + i + "]["
+								+ jsonAction.substring(0, 1000) + "]<BR>");
+			}
+		}
+
+	}
+
+	function clearScreenButton() {
+
+		$("#adminStatus").html("");
+
+	}
+</script>
+
+</head>
+<body>
+	<div class="content">
+		<input type="button" value="Envoyer les opérations en suspend"
+			onclick="purgeButton()"> <input type="button"
+			value="Effacer les opérations en suspend" onclick="clearButton()">
+		<input type="button" value="Lister les opérations en suspend"
+			onclick="listButton()"> <input type="button"
+			value="Effacer l'écran" onclick="clearScreenButton()">
+	</div>
+	<div id="adminStatus"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.heading-text {
+	border: solid black;
+	border-width: 1px 0;
+	font-size: 1.5rem;
+}
+
+.product-bloc {
+	border: solid black;
+	border-width: 1px 0;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: black;
+	color: white;
+}
+
+.product-header {
+	background-color: black;
+	color: white;
+}
+
+.product-row {
+	border: solid white;
+	border-width: 1px 0;
+	background-color: black;
+	color: white;
+}
